@@ -108,6 +108,11 @@ p_dim | p_dim_1
 # inhibitory neurons: GAD1, LHFPL3, PCDH15
 # microglia: C3, LRMDA, DOCK8
 # oligodendrocytes: MBP, PLP1, ST18
+Cell types were annotated using the following canonical marker genes: 
+astrocytes (AQP4), microglia (LRMDA, DOCK8),
+ excitatory neurons (CAMK2A, CBLN2,), inhibitory neurons (GAD1, LHFPL3,), 
+oligodendrocytes (MBP, PLP1), and endothelial cells (CLDN5).
+
 astrocytes = c("AQP4", "ADGRV1", "GPC5", "RYR3")
 DotPlot(scRNA, features = astrocytes, 
         assay = "RNA") # 2
